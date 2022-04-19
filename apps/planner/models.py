@@ -1,10 +1,8 @@
 from datetime import datetime, timedelta
 
-from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator
 from django.db import models
 from django.db.models import Sum
-from django.utils.html import format_html
 
 from apps.planner.validators import WeekDayValidator
 
